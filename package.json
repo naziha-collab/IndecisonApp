@@ -1,0 +1,35 @@
+{
+  "name": "indecisionapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "g": "^2.0.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-modal": "^2.2.2",
+    "sass-loader": "^7.0.0",
+    "style-loader": "^0.18.2",
+    "validator": "^8.0.0",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.11.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server public/",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "build": "webpack --watch",
+    "dev-server": "webpack-dev-server"
+  },
+  "author": "Naziha",
+  "license": "ISC"
+}
